@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Hello from "./Hello";
+import Hello from "./script";
 
 ReactDOM.render(
   <React.StrictMode>
