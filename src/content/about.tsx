@@ -1,8 +1,16 @@
-import React from "react";
+import * as React from "react";
 import { Link } from "react-router-dom";
-import Sub from "./sub";
+//import Sub from "./sub";
 
-class About extends React.Component {}
+const About: React.FC = () => {
+  return (
+    <div>
+      <p>ワイはレムリア!</p>
+      <br />
+      <Link to="/sub">sub</Link>
+    </div>
+  );
+};
 export default About;
 
 /**
